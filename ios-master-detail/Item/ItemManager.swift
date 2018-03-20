@@ -11,35 +11,47 @@ import UIKit
 class ItemManager {
   
   // MARK: - Properties
-
+  
   static let shared: ItemManager = ItemManager()
   
   var master: ItemManagerDelegate?
   
   var detail: ItemManagerDelegate?
   
-  var objects: [Item] = []
+  var objects: [Item]
   
   var index: [[Int]] = [[]]
   
   var selected: Int? {
     didSet {
-      self.master?.itemManagerDidSelectItem()
-      self.detail?.itemManagerDidSelectItem()
+      if self.selected != nil {
+        self.master?.itemManagerDidSelectItem()
+        self.detail?.itemManagerDidSelectItem()
+      }
     }
   }
   
-  private init() {
-    // temp create objects
-    let item1 = Item(dict: ["id":1,"name":"First Item"])
-    self.objects.append(item1)
-    let item2 = Item(dict: ["id":2,"name":"Second Item"])
-    self.objects.append(item2)
-    let item3 = Item(dict: ["id":3,"name":"Third Item"])
-    self.objects.append(item3)
-    self.generateIndex()
-  }
+  // MARK: - ItemManager
   
+  /**
+   * Init
+   */
+  private init() {
+    if let storedData = UserDefaults.standard.data(forKey: Key.items) {
+      if let storedObjects = NSKeyedUnarchiver.unarchiveObject(with: storedData) as? [Item] {
+        self.objects = storedObjects
+      } else {
+        self.objects = []
+      }
+    } else {
+      self.objects = []
+    }
+    self.generateIndex()
+  } // ./init
+  
+  /**
+   * Generate Index
+   */
   func generateIndex() {
     self.index = [[]]
     var i: Int = 0
@@ -48,6 +60,6 @@ class ItemManager {
       i += 1
     }
     self.master?.itemManagerDidUpdateItems()
-  }
+  } // ./generateIndex
   
 } // ./ItemManager

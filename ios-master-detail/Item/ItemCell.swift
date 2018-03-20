@@ -11,7 +11,7 @@ import UIKit
 class ItemCell: UITableViewCell {
   
   // MARK: - Properties
-
+  
   let manager: ItemManager = ItemManager.shared
   
   var path: IndexPath?
@@ -19,13 +19,13 @@ class ItemCell: UITableViewCell {
   var object: Item?
   
   // MARK: - Outlets
-
+  
   @IBOutlet weak var idLabel: UILabel!
   
   @IBOutlet weak var nameLabel: UILabel!
   
   // MARK: - ItemCell
-
+  
   /**
    * Configure Cell
    * - parameter: IndexPath
@@ -65,4 +65,4 @@ class ItemCell: UITableViewCell {
     super.setSelected(selected, animated: animated)
   } // ./setSelected
   
-}
+} // ./ItemCell

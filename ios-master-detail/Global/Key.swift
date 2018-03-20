@@ -20,4 +20,8 @@ struct Key {
   
   static let name: String = "name"
   
+  // MARK: - ItemManager Keys
+
+  static let items: String = "items"
+  
 }
