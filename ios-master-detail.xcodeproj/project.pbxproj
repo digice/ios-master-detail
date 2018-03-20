@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A96B93C206177A2008E819D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A96B93B206177A2008E819D /* Default-568h@2x.png */; };
+		9A96B93E206178AB008E819D /* View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A96B93D206178AB008E819D /* View.storyboard */; };
 		9AA1F59C2061695C00889E28 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9AA1F59A2061695C00889E28 /* README.md */; };
 		9AA1F59D2061695C00889E28 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9AA1F59B2061695C00889E28 /* LICENSE */; };
 		9AA1F5A020616A1300889E28 /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA1F59F20616A1300889E28 /* Identifier.swift */; };
@@ -22,30 +24,30 @@
 		B27D8DAE20613D2F00F44E9C /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27D8DAD20613D2F00F44E9C /* AppController.swift */; };
 		B27D8DB020613F9C00F44E9C /* App.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27D8DAF20613F9C00F44E9C /* App.storyboard */; };
 		B27D8DB32061459300F44E9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27D8DB22061459300F44E9C /* ViewController.swift */; };
-		B27D8DB5206145DD00F44E9C /* View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27D8DB4206145DD00F44E9C /* View.storyboard */; };
 		B27D8DB72061461700F44E9C /* ViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27D8DB62061461700F44E9C /* ViewManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A96B93B206177A2008E819D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9A96B93D206178AB008E819D /* View.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = View.storyboard; sourceTree = "<group>"; };
 		9AA1F59A2061695C00889E28 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9AA1F59B2061695C00889E28 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9AA1F59F20616A1300889E28 /* Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
 		9AA1F5A120616A4000889E28 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 		9AA1F5A320616C7300889E28 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		9AA1F5A520616E1300889E28 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
-		B23571822061358000609299 /* ios-template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23571822061358000609299 /* ios-master-detail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-master-detail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B235718C2061358000609299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B235718F2061358000609299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B23571912061358000609299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2357198206135AD00609299 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		B27D8DA6206138F700F44E9C /* ios-template-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-template-Bridging-Header.h"; sourceTree = "<group>"; };
+		B27D8DA6206138F700F44E9C /* ios-master-detail-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-master-detail-Bridging-Header.h"; sourceTree = "<group>"; };
 		B27D8DA7206138F700F44E9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B27D8DA92061393700F44E9C /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 		B27D8DAB20613AE000F44E9C /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		B27D8DAD20613D2F00F44E9C /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
 		B27D8DAF20613F9C00F44E9C /* App.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = App.storyboard; sourceTree = "<group>"; };
 		B27D8DB22061459300F44E9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B27D8DB4206145DD00F44E9C /* View.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = View.storyboard; path = "ios-template/View/View.storyboard"; sourceTree = SOURCE_ROOT; };
 		B27D8DB62061461700F44E9C /* ViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,9 +77,10 @@
 		B23571792061358000609299 = {
 			isa = PBXGroup;
 			children = (
+				9A96B93B206177A2008E819D /* Default-568h@2x.png */,
 				9AA1F59B2061695C00889E28 /* LICENSE */,
 				9AA1F59A2061695C00889E28 /* README.md */,
-				B23571842061358000609299 /* ios-template */,
+				B23571842061358000609299 /* ios-master-detail */,
 				B23571832061358000609299 /* Products */,
 				B2357197206135AD00609299 /* Frameworks */,
 			);
@@ -86,12 +89,12 @@
 		B23571832061358000609299 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B23571822061358000609299 /* ios-template.app */,
+				B23571822061358000609299 /* ios-master-detail.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B23571842061358000609299 /* ios-template */ = {
+		B23571842061358000609299 /* ios-master-detail */ = {
 			isa = PBXGroup;
 			children = (
 				B235718C2061358000609299 /* Assets.xcassets */,
@@ -101,7 +104,7 @@
 				B27D8DB12061458600F44E9C /* View */,
 				B27D8DA5206138E300F44E9C /* App */,
 			);
-			path = "ios-template";
+			path = "ios-master-detail";
 			sourceTree = "<group>";
 		};
 		B2357197206135AD00609299 /* Frameworks */ = {
@@ -120,7 +123,7 @@
 				B27D8DA92061393700F44E9C /* AppManager.swift */,
 				B27D8DAB20613AE000F44E9C /* App.swift */,
 				B27D8DA7206138F700F44E9C /* AppDelegate.swift */,
-				B27D8DA6206138F700F44E9C /* ios-template-Bridging-Header.h */,
+				B27D8DA6206138F700F44E9C /* ios-master-detail-Bridging-Header.h */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -128,7 +131,7 @@
 		B27D8DB12061458600F44E9C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B27D8DB4206145DD00F44E9C /* View.storyboard */,
+				9A96B93D206178AB008E819D /* View.storyboard */,
 				B27D8DB22061459300F44E9C /* ViewController.swift */,
 				B27D8DB62061461700F44E9C /* ViewManager.swift */,
 			);
@@ -138,9 +141,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B23571812061358000609299 /* ios-template */ = {
+		B23571812061358000609299 /* ios-master-detail */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B23571942061358000609299 /* Build configuration list for PBXNativeTarget "ios-template" */;
+			buildConfigurationList = B23571942061358000609299 /* Build configuration list for PBXNativeTarget "ios-master-detail" */;
 			buildPhases = (
 				B235717E2061358000609299 /* Sources */,
 				B235717F2061358000609299 /* Frameworks */,
@@ -150,9 +153,9 @@
 			);
 			dependencies = (
 			);
-			name = "ios-template";
+			name = "ios-master-detail";
 			productName = "ios-template";
-			productReference = B23571822061358000609299 /* ios-template.app */;
+			productReference = B23571822061358000609299 /* ios-master-detail.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -172,7 +175,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B235717D2061358000609299 /* Build configuration list for PBXProject "ios-template" */;
+			buildConfigurationList = B235717D2061358000609299 /* Build configuration list for PBXProject "ios-master-detail" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -185,7 +188,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B23571812061358000609299 /* ios-template */,
+				B23571812061358000609299 /* ios-master-detail */,
 			);
 		};
 /* End PBXProject section */
@@ -196,10 +199,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AA1F59D2061695C00889E28 /* LICENSE in Resources */,
+				9A96B93E206178AB008E819D /* View.storyboard in Resources */,
 				B23571902061358000609299 /* LaunchScreen.storyboard in Resources */,
-				B27D8DB5206145DD00F44E9C /* View.storyboard in Resources */,
 				9AA1F59C2061695C00889E28 /* README.md in Resources */,
 				B235718D2061358000609299 /* Assets.xcassets in Resources */,
+				9A96B93C206177A2008E819D /* Default-568h@2x.png in Resources */,
 				B27D8DB020613F9C00F44E9C /* App.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,11 +355,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "ios-template/Info.plist";
+				INFOPLIST_FILE = "ios-master-detail/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.digices.ios-template";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digices.ios-master-detail";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "ios-template/App/ios-template-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-master-detail/App/ios-master-detail-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -368,11 +372,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "ios-template/Info.plist";
+				INFOPLIST_FILE = "ios-master-detail/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.digices.ios-template";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digices.ios-master-detail";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "ios-template/App/ios-template-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-master-detail/App/ios-master-detail-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -381,7 +385,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B235717D2061358000609299 /* Build configuration list for PBXProject "ios-template" */ = {
+		B235717D2061358000609299 /* Build configuration list for PBXProject "ios-master-detail" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B23571922061358000609299 /* Debug */,
@@ -390,7 +394,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B23571942061358000609299 /* Build configuration list for PBXNativeTarget "ios-template" */ = {
+		B23571942061358000609299 /* Build configuration list for PBXNativeTarget "ios-master-detail" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B23571952061358000609299 /* Debug */,
