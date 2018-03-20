@@ -14,6 +14,12 @@ struct Identifier {
   
   static let appEmbedView: String = "appEmbedView"
   
+  static let itemsShowItem: String = "itemsShowItem"
+  
+  static let itemsDismissItem: String = "itemsDismissItem"
+  
   // Reuse Identifiers
+  
+  static let itemCell: String = "itemCell"
   
 }

@@ -16,6 +16,10 @@ class ViewManager {
   
   var view: ViewController?
   
+  var items: ItemsController?
+  
+  var item: ItemController?
+  
   // MARK: - ViewManager
 
   /**

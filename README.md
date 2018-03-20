@@ -2,6 +2,9 @@
 
 _Starter Master-Detail project for iOS_
 
+###### VERSION 0.0.4 ######
+Add Item MVC
+
 ###### VERSION 0.0.3 ######
 Rename Project
 

@@ -14,4 +14,10 @@ struct Key {
   
   static let app: String = "app"
   
+  // MARK: - Item keys
+
+  static let id: String = "id"
+  
+  static let name: String = "name"
+  
 }
